@@ -1,5 +1,5 @@
 # Przestrzeń stanów
----
+
 ### Trochę nudnej teorii
 
 Ogólnie rzecz biorąc, przestrzeń stanów jest abstrakcyjnym matematycznym lub teoretycznym modelem, który reprezentuje wszystkie możliwe stany lub konfiguracje danego systemu lub obiektu w danej chwili. Koncepcja przestrzeni stanów pomaga w analizie, opisie i modelowaniu zachowań i zmian w systemach.
