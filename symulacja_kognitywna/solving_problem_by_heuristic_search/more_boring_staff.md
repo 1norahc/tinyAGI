@@ -4,22 +4,22 @@ Rozwiązywanie problemów za pomocą heurystycznego przeszukiwania przestrzeni s
 
 Ogólny proces rozwiązywania problemu poprzez przeszukiwanie heurystyczne w przestrzeni stanów może wyglądać następująco: 
 
-1. *Definicja problemu:* Najpierw musisz zdefiniować problem, który chcesz rozwiązać, wraz z jego parametrami i ograniczeniami. Obejmuje to określenie stanu początkowego i końcowego, a także reguł opisujących sposób przejścia z jednego stanu do drugiego.
+1. **Definicja problemu:** Najpierw musisz zdefiniować problem, który chcesz rozwiązać, wraz z jego parametrami i ograniczeniami. Obejmuje to określenie stanu początkowego i końcowego, a także reguł opisujących sposób przejścia z jednego stanu do drugiego.
 
-2. *Terytorium stanu:* Zdefiniuj przestrzeń stanów, czyli zbiór wszystkich możliwych stanów, w których można znaleźć problem do rozwiązania.
+2. **Terytorium stanu:** Zdefiniuj przestrzeń stanów, czyli zbiór wszystkich możliwych stanów, w których można znaleźć problem do rozwiązania.
 
-3. *Funkcja oceny:* Określ funkcję oceny lub funkcję celu, która mierzy jakość rozwiązania. Ta funkcja przypisuje każdemu stanowi wartość rankingową, której można użyć do porównania różnych stanów. 
+3. **Funkcja oceny:** Określ funkcję oceny lub funkcję celu, która mierzy jakość rozwiązania. Ta funkcja przypisuje każdemu stanowi wartość rankingową, której można użyć do porównania różnych stanów. 
 
-4. *Samodzielne odkrywanie:* Wybierz lub opracuj heurystyki, które pomogą w poszukiwaniu lepszych potencjalnych rozwiązań. Heurystyki mogą uwzględniać pewne informacje lub wiedzę na temat problemu, aby ocenić, które warunki są najbardziej obiecujące.
+4. **Samodzielne odkrywanie:** Wybierz lub opracuj heurystyki, które pomogą w poszukiwaniu lepszych potencjalnych rozwiązań. Heurystyki mogą uwzględniać pewne informacje lub wiedzę na temat problemu, aby ocenić, które warunki są najbardziej obiecujące.
 
-5. *Algorytm wyszukiwania:* Wybór odpowiedniego algorytmu wyszukiwania analizuje przestrzeń stanów i wykorzystuje heurystyki do podejmowania decyzji o tym, które stany należy zbadać.
+5. **Algorytm wyszukiwania:** Wybór odpowiedniego algorytmu wyszukiwania analizuje przestrzeń stanów i wykorzystuje heurystyki do podejmowania decyzji o tym, które stany należy zbadać.
 
-6. *Iteracyjne przeszukiwanie:* Iteracyjne zastosowanie algorytmu wyszukiwania, w którym w każdej iteracji wybierane są nowe stany w oparciu o ocenę heurystyczną. Proces ten trwa do momentu znalezienia rozwiązania, spełnienia ograniczeń czasowych lub zasobów lub osiągnięcia określonego poziomu jakości rozwiązania.  
+6. **Iteracyjne przeszukiwanie:** Iteracyjne zastosowanie algorytmu wyszukiwania, w którym w każdej iteracji wybierane są nowe stany w oparciu o ocenę heurystyczną. Proces ten trwa do momentu znalezienia rozwiązania, spełnienia ograniczeń czasowych lub zasobów lub osiągnięcia określonego poziomu jakości rozwiązania.  
 
-7. *Ostateczne rozwiązanie:*Po zakończeniu procesu poszukiwań ostatecznym rozwiązaniem jest stan, który uzyska najlepszą wartość oceny zgodnie z funkcją celu.
+7. **Ostateczne rozwiązanie:** Po zakończeniu procesu poszukiwań ostatecznym rozwiązaniem jest stan, który uzyska najlepszą wartość oceny zgodnie z funkcją celu.
 
-8. *Wyniki i analiza:* Przeanalizuj wyniki, oceń jakość znalezionego rozwiązania i ewentualnie dostosuj parametry heurystyczne lub algorytmiczne, aby uzyskać lepsze wyniki.
+8. **Wyniki i analiza:** Przeanalizuj wyniki, oceń jakość znalezionego rozwiązania i ewentualnie dostosuj parametry heurystyczne lub algorytmiczne, aby uzyskać lepsze wyniki.
 
-**Przykłady problemów rozwiązywanych za pomocą heurystycznego przeszukiwania przestrzeni stanów to m.in. problem komiwojażera, planowanie tras, rozkładanie grafów, optymalizacja harmonogramów i wiele innych. Heurystyki są szczególnie przydatne w przypadkach, gdy dokładne rozwiązanie problemu jest niepraktyczne ze względu na jego złożoność obliczeniową.**
+***Przykłady problemów rozwiązywanych za pomocą heurystycznego przeszukiwania przestrzeni stanów to m.in. problem komiwojażera, planowanie tras, rozkładanie grafów, optymalizacja harmonogramów i wiele innych. Heurystyki są szczególnie przydatne w przypadkach, gdy dokładne rozwiązanie problemu jest niepraktyczne ze względu na jego złożoność obliczeniową.***
 
 
